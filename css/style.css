@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+/*------------------------ typography start------------------------------------*/
+h1{
+    padding-bottom: 35px;
+    font-weight: bold;
+    font-size: 52px;
+}
+span{
+    color: #21b573;
+     font-size: 55px;
+}
+h2{
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+h4{
+    color: tomato;
+}
+p{
+    text-align: justify;
+    padding: 0px 20px 10px 0px;
+}
+/*------------------------ typography end-------------------------------------*/
+/* ------------------------nav-section start------------------------------ */
+.navigation{
+    background-color: #e0ffe0;
+    margin-top: -40px;
+    margin-bottom: -70px;
+    padding: 30px 0px 30px 0px;
+}
+
+/* ------------------------nav-section end------------------------------ */
+/* ------------------------banner-section start------------------------------ */
+.banner-section{
+    background-color: #e0ffe0;
+    margin-top: -40px;
+   
+}
+.section-text{
+     padding: 50px 30px 50px 30px;
+     }
+
+
+.img-fluid{
+    padding: 40px 30px 50px 30px;
+}
+/* ------------------------banner-section end------------------------------ */
+/* ------------------------button------------------------------ */
+.btn-success {
+    border-radius: 50px;
+    padding: 12px 35px 12px 35px;
+    text-transform: uppercase;
+   
+}
+/* ------------------------button end------------------------------ */
+/* ------------------------learn anything start------------------------------ */
+
+.learn-any{
+    width: 120px;
+    padding: 30px 0px 30px 0px;
+    height: 210px;
+}
+.learn-topics{
+    border-radius: 8px;
+    box-shadow: 8px 8px 20px grey;
+    padding-bottom: 20px;
+    background-color: #e0ffe0;
+    margin-bottom: 30px;
+}
+/* ------------------------learn anything end------------------------------ */
+/* ------------------------online course start------------------------------ */
+.online-img{
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+    
+}
+.card{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 8px 8px 20px gray;
+}
+.card-img-top{
+    padding: 15px 15px 15px 15px;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+
+}
+/* ------------------------online course end------------------------------ */
+/* ------------------------testimonial start------------------------------ */
+.man-img{
+    width: 150px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* ------------------------testimonial end------------------------------ */
+/* ------------------------last-section start------------------------------ */
+.last-section{
+    background-color: #282531;
+    color:white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+/* ------------------------last-section end------------------------------ */
+/* ------------------------footer------------------------------ */
+footer{
+    color: gray;
+}
+/* ------------------------footer end------------------------------ */
