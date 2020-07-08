@@ -1,3 +1,18 @@
+/* ----------------------------------------------------------------------------
+-------------------------------Index-------------------------------------------
+----------------------------------------------------------------------------- */
+/*------------------1. typography start----------24 number line
+                    2. nav-section start---------26 number line
+                    3. banner-section start------61 number line
+                    4. button--------------------80 number line
+                    5. learn anything start------95 number line
+                    6. online course start------114 number line
+                    7. successful student start-128 number line
+                    8. teachers start-----------138 number line
+                    9. testimonial start--------146 number line
+                   10. last-section start-------155 number line
+                   11. hover start--------------160 number line----------- */
+                          
 body{
     margin: 0;
     font-family: sans-serif;
@@ -28,7 +43,7 @@ p{
     padding: 0px 20px 10px 0px;
 }
 /*------------------------ typography end-------------------------------------*/
-/* ------------------------nav-section start------------------------------ */
+/* ------------------------nav-section start--------------------------------- */
 .navigation{
     background-color: #e0ffe0;
     margin-top: -40px;
@@ -36,36 +51,32 @@ p{
     padding: 30px 0px 30px 0px;
 }
 .logo{
-    width: 150px;
+    width: 220px;
 }
 .nav-item{
     font-weight: bold;
 }
 
-/* ------------------------nav-section end------------------------------ */
+/* ------------------------nav-section end------------------------------------ */
 /* ------------------------banner-section start------------------------------ */
 .banner-section{
     background-color: #e0ffe0;
     margin-top: -40px;
-   
 }
 .section-text{
      padding: 50px 30px 50px 30px;
      }
-
-
 .img-fluid{
     padding: 40px 30px 50px 30px;
 }
 /* ------------------------banner-section end------------------------------ */
-/* ------------------------button------------------------------ */
+/* ------------------------button----------------------------------------- */
 .btn-success {
     border-radius: 50px;
     padding: 12px 35px 12px 35px;
     text-transform: uppercase;
-   
 }
-/* ------------------------button end------------------------------ */
+/* ------------------------button end----------------------------------------- */
 /* ------------------------learn anything start------------------------------ */
 
 .learn-any{
@@ -80,18 +91,19 @@ p{
     background-color: #e0ffe0;
     margin-bottom: 30px;
 }
-/* ------------------------learn anything end------------------------------ */
+/* ------------------------learn anything end------------------------------- */
 /* ------------------------online course start------------------------------ */
 .online-img{
     width: 25px;
     height: 25px;
     padding-right: 5px;
-    
-}
+  }
 .card{
     border-radius: 15px;
     border: none;
     box-shadow: 8px 8px 20px gray;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .card-img-top{
     padding: 15px 15px 15px 15px;
@@ -99,33 +111,32 @@ p{
 .card-footer{
     border: none;
     background-color: white;
-
 }
-/* ------------------------online course end------------------------------ */
-/* ------------------------online course end------------------------------ */
+/* ------------------------online course end--------------------------------------- */
+/* ------------------------ successful student start------------------------------ */
+
 .student{
     width: 100%;
     padding: 10px 10px 10px 10px;
-   
-   
-}
+    height: 80%;
+   }
 .successful{
     border-radius: 8px;
     box-shadow: 8px 8px 20px grey;
     background-color: #e0ffe0;
     margin-bottom: 30px;
 }
-/* ------------------------online course end------------------------------ */
-/* ------------------------online course end------------------------------ */
+/* ------------------------successful student end------------------------------ */
+/* ------------------------teachers start------------------------------------- */
 .teacher{
     background-color: #e0ffe0;
 }
 .carousel-item{
     padding: 20px 30px 20px 30px;
-    min-height: 300px;
+    min-height: 400px;
     color: tomato;
 }
-/* ------------------------testimonial start------------------------------ */
+/* ------------------------teachers end----------------------------------- */
 /* ------------------------testimonial start------------------------------ */
 .man-img{
     width: 150px;
@@ -133,7 +144,7 @@ p{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-/* ------------------------testimonial end------------------------------ */
+/* ------------------------testimonial end--------------------------------- */
 /* ------------------------last-section start------------------------------ */
 .last-section{
     background-color: #282531;
@@ -143,8 +154,24 @@ p{
     padding-left: 30px;
 }
 /* ------------------------last-section end------------------------------ */
-/* ------------------------footer------------------------------ */
+/* ------------------------footer--------------------------------------- */
 footer{
     color: gray;
 }
-/* ------------------------footer end------------------------------ */
+/* ------------------------footer end-------------------------------- */
+/* ------------------------hover start------------------------------ */
+.btn-success:hover{
+    background-color: #e0ffe0;
+    color: tomato;
+    border-color: tomato;
+}
+.successful:hover{
+    transform: scale(1.05);
+}
+ .card:hover{
+     transform: scale(1.05);
+ }
+  .learn-topics:hover{
+    transform: scale(1.05);
+}
+/* ------------------------hover end------------------------------ */

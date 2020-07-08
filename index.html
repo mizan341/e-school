@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/image 7.png" type="image/x-icon">
     <title>E-School~By mizanur khan</title>
+    <!--------------------------- stylesheet ------------------------------------------------>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <!--------------------------- stylesheet ------------------------------------------------>
 </head>
 <body>
+<!---------------------------- navigation bar start------------------------------------------>
     <section class="navigation">
         <div class="container d-flex flex-row justify-content-center">
         
-                <a class="navbar-brand col-md-6" href="#"><img class="logo" src="images/ICON/Logo.png" alt=""></a>
+                <a class="navbar-brand col-md-6" href="#"><img class="logo" src="images/ICON/Logo.png" alt="Logo"></a>
             
             <nav class="navbar navbar-expand-lg navbar-light col-md-6">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -22,10 +25,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav d-flex justify-content-around">
-                        <a class="nav-item nav-link active" href="#">Book <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Course</a>
-                        <a class="nav-item nav-link" href="#">Other</a>
-                        <a class="nav-item nav-link" href="#">Blog</a>
+                        <a class="nav-item nav-link active" href="#book">Book <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#course">Course</a>
+                        <a class="nav-item nav-link" href="#other">Other</a>
+                        <a class="nav-item nav-link" href="#blog">Blog</a>
                         <button class="btn btn-success" type="button">sign up</button>
                        
                     </div>
@@ -35,11 +38,12 @@
             </nav>
         </div>
     </section>
-
+<!---------------------------- navigation bar end------------------------------------- -->
+<!---------------------------- banner-section start----------------------------------- -->
     <section class="banner-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 section-text">
+                <div class="col-md-6">
                     <h4>Are you ready to learn?</h4>
                     <h1>Learn with fun on <span>any schedule</span></h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis perferendis impedit non,
@@ -47,17 +51,19 @@
                     <button class="btn btn-success" type="button">Get Started</button>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-fluid" src="images/Photos/Illustration.png" alt="">
+                    <img class="img-fluid" src="images/Photos/Illustration.png" alt="image">
                 </div>
             </div>
         </div>
     </section>
-    <section class="container">
+<!---------------------------- banner-section end----------------------------------- -->
+<!---------------------------- book-section start----------------------------------- -->
+    <section class="container" id="book">
         <div class="row">
             
                 <div class="col-xl-3 col-md-6 col-sm-12">
                     <div class="d-flex align-items-center flex-column learn-topics">
-                    <img class="learn-any" src="images/ICON/book.png" alt="">
+                    <img class="learn-any" src="images/ICON/book.png" alt="image">
                     <h2>1500+ Topics</h2>
                     <h5>learn anythings</h5>
                 </div>
@@ -65,7 +71,7 @@
             
                 <div class="col-xl-3 col-md-6 col-sm-12">
                     <div class="d-flex align-items-center flex-column learn-topics">
-                    <img class="learn-any" src="images/ICON/Student.png" alt="">
+                    <img class="learn-any" src="images/ICON/Student.png" alt="image">
                     <h2>1800+ Students</h2>
                     <h5>learn anythings</h5>
                 </div>
@@ -73,7 +79,7 @@
             
                 <div class="col-xl-3 col-md-6 col-sm-12">
                     <div class="d-flex align-items-center flex-column learn-topics">
-                        <img class="learn-any" src="images/ICON/Test.png" alt="">
+                        <img class="learn-any" src="images/ICON/Test.png" alt="image">
                         <h2>9k+ Test Token</h2>
                     <h5>learn anythings</h5>
                 </div>
@@ -81,113 +87,120 @@
             
                 <div class="col-xl-3 col-md-6 col-sm-12">
                     <div class="d-flex align-items-center flex-column learn-topics">
-                    <img class="learn-any"src="images/ICON/Students.png" alt="">
+                    <img class="learn-any" src="images/ICON/Students.png" alt="image">
                     <h2>2000+ Students</h2>
                     <h5>learn anythings</h5>
                 </div>
             </div>
             
         </div>
-              
     </section>
-    <section class="container">
+<!---------------------------- book-section end------------------------------------ -->
+<!---------------------------- Online Courses-section start------------------------ -->
+    <section class="container" id="course">
         <div class="row d-flex justify-content-center">
             <h2>Online Courses</h2>
            
         </div>
-        <div class="card-deck">
-            <div class="card">
-                <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
-                <div class="card-body d-flex align-items-start flex-column">
-                    <h5 class="card-title">Morder pyschology</h5>
-                    <p class="card-text">designation</p>
-                    <button class="btn btn-success" type="button">buy course</button>
-                </div>
-                <div class="card-footer d-flex justify-content-between align-items-center">
-                    <div class="d-flex  flex-row">
-                        <img class="online-img" src="images/ICON/calendar.png" alt="">
-                        <p>start 20, April 2021</p>
+       <div class="row">
+            <div class="card-deck d-flex flex-xl-row flex-md-column flex-sm-column flex-column m-auto">
+                <div class="card d-flex justify-content-center">
+                    <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="image">
+                    <div class="card-body d-flex align-items-start flex-column">
+                        <h5 class="card-title">Morder pyschology</h5>
+                        <p class="card-text">designation</p>
+                        <button class="btn btn-success" type="button">buy course</button>
                     </div>
-                    <div class="d-flex  flex-row">
-                        <img class="online-img" src="images/ICON/people.png" alt="">
-                        <p>60 seats</p>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <div class="d-flex  flex-row">
+                            <img class="online-img" src="images/ICON/calendar.png" alt="image">
+                            <p>start 20, April 2021</p>
+                        </div>
+                        <div class="d-flex  flex-row">
+                            <img class="online-img" src="images/ICON/people.png" alt="image">
+                            <p>60 seats</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="image">
+                    <div class="card-body d-flex align-items-start flex-column">
+                        <h5 class="card-title">Morder pyschology</h5>
+                        <p class="card-text">designation</p>
+                        <button class="btn btn-success" type="button">buy course</button>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <div class="d-flex  flex-row">
+                            <img class="online-img" src="images/ICON/calendar.png" alt="image">
+                            <p>start 20, April 2021</p>
+                        </div>
+                        <div class="d-flex  flex-row">
+                            <img class="online-img" src="images/ICON/people.png" alt="image">
+                            <p>60 seats</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="image">
+                    <div class="card-body d-flex align-items-start flex-column">
+                        <h5 class="card-title">Morder pyschology</h5>
+                        <p class="card-text">designation</p>
+                        <button class="btn btn-success" type="button">buy course</button>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <div class="d-flex  flex-row">
+                            <img class="online-img" src="images/ICON/calendar.png" alt="image">
+                            <p>start 20, April 2021</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <img class="online-img" src="images/ICON/people.png" alt="image">
+                            <p>60 seats</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
-                <div class="card-body d-flex align-items-start flex-column">
-                    <h5 class="card-title">Morder pyschology</h5>
-                    <p class="card-text">designation</p>
-                  <button class="btn btn-success" type="button">buy course</button>
-                </div>
-                <div class="card-footer d-flex justify-content-between align-items-center">
-                    <div class="d-flex  flex-row">
-                        <img class="online-img" src="images/ICON/calendar.png" alt="">
-                        <p>start 20, April 2021</p>
-                    </div>
-                    <div class="d-flex  flex-row">
-                        <img class="online-img" src="images/ICON/people.png" alt="">
-                        <p>60 seats</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
-                <div class="card-body d-flex align-items-start flex-column">
-                    <h5 class="card-title">Morder pyschology</h5>
-                    <p class="card-text">designation</p>
-                   <button class="btn btn-success" type="button">buy course</button>
-                </div>
-                <div class="card-footer d-flex justify-content-between align-items-center">
-                    <div class="d-flex  flex-row">
-                        <img class="online-img" src="images/ICON/calendar.png" alt="">
-                        <p>start 20, April 2021</p>
-                    </div>
-                    <div class="d-flex flex-row">
-                        <img class="online-img" src="images/ICON/people.png" alt="">
-                        <p>60 seats</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+       </div>
     </section>
-    <section class="successful-students">
+<!---------------------------- Online Courses-section end------------------------ -->
+<!---------------------------- Successful Students-section start----------------- -->
+    <section class="successful-students" id="other">
         <div class="container">
-            <h1>Successful Students</h1>
+            <h2 class="d-flex justify-content-center">Successful Students</h2>
              <div class="row">
 
                  <div class="col-xl-3 col-md-6 col-sm-12">
                      <div class="d-flex align-items-center flex-column successful">
-                         <img class="student" src="images/mizan.png" alt="">
+                         <img class="student" src="images/mizan.png" alt="image">
                          <h5>name: name nai</h5>
                      </div>
                  </div>
 
                  <div class="col-xl-3 col-md-6 col-sm-12">
                      <div class="d-flex align-items-center flex-column successful">
-                         <img class="student" src="images/mizan.png" alt="">
+                         <img class="student" src="images/mizan.png" alt="image">
                          <h5>name: mr mouse</h5>
                      </div>
                  </div>
                  <div class="col-xl-3 col-md-6 col-sm-12">
                      <div class="d-flex align-items-center flex-column successful">
-                         <img class="student" src="images/mizan.png" alt="">
+                         <img class="student" src="images/mizan.png" alt="image">
                          <h5>name: name nai</h5>
                      </div>
                  </div>
 
                  <div class="col-xl-3 col-md-6 col-sm-12">
                      <div class="d-flex align-items-center flex-column successful">
-                         <img class="student" src="images/mizan.png" alt="">
+                         <img class="student" src="images/mizan.png" alt="image">
                          <h5>name: mr mouse</h5>
                      </div>
                  </div>
              </div>
         </div>
     </section>
+<!---------------------------- Successful Students-section end----------------- -->
+<!---------------------------- Teachers-section start-------------------------- -->
     <section class="container">
-            <h1>Teachers</h1>
+            <h2 class="d-flex justify-content-center">Teachers</h2>
         <div class="teacher">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -199,14 +212,29 @@
                     <div class="carousel-item active">
                         <div class="row">
                             <div class="col-md-6 d-flex justify-content-center flex-column">
-                                <h1>Just image</h1>
+                                <h1>normal images</h1>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem quo, rem
                                     illum ullam autem corporis vitae ipsa qui eius consequuntur suscipit alias doloribus
                                     praesentium? Culpa explicabo quidem dolor? Itaque, eveniet?</p>
                                 
                             </div>
                             <div class="col-md-6">
-                                <img src="images/image 7.png" class="d-block w-50" alt="...">
+                                <img src="images/jhankar.png" class="d-block w-50" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 d-flex justify-content-center flex-column">
+                                <h1>Jhankar mahabub</h1>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem quo, rem
+                                    illum ullam autem corporis vitae
+                                    ipsa qui eius consequuntur suscipit alias doloribus praesentium? Culpa explicabo
+                                    quidem dolor? Itaque, eveniet?</p>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/jhankar2.png" class="d-block w-50" alt="image">
                             </div>
                         </div>
                     </div>
@@ -221,22 +249,7 @@
                                 
                             </div>
                             <div class="col-md-6">
-                                <img src="images/image 7.png" class="d-block w-50" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-6 d-flex justify-content-center flex-column">
-                                <h1>Normal image</h1>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem quo, rem
-                                    illum ullam autem corporis vitae
-                                    ipsa qui eius consequuntur suscipit alias doloribus praesentium? Culpa explicabo
-                                    quidem dolor? Itaque, eveniet?</p>
-                                
-                            </div>
-                            <div class="col-md-6">
-                                <img src="images/image 7.png" class="d-block w-50" alt="...">
+                                <img src="images/mizan.png" class="d-block w-50" alt="image">
                             </div>
                         </div>
                     </div>
@@ -251,20 +264,24 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section>-
+<!---------------------------- Teachers-section end------------------------------- -->
+<!---------------------------- Testimonial-section start-------------------------- -->
     <section class="container">
          <div class="d-flex justify-content-center">
              <h2>Testimonial</h2>
          </div>
        <div class="w-75 m-auto">
            <div class="d-flex flex-row justify-content-center align-items-center row">
-               <img class="man-img col-md-6" src="images/Photos/Man.png" alt="">
+               <img class="man-img col-md-6" src="images/Photos/Man.png" alt="image">
                <p class="col-md-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore rem aliquam
                    quis in ipsum? Nisi
                    consequuntur pariatur dolorum illo vitae ratione, veritatis excepturi maiores! Impedit hic soluta accusantium fugiat. Voluptates!</p>
            </div>
        </div>
     </section>
+<!---------------------------- Testimonial-section end-------------------------- -->
+<!---------------------------- last-section start------------------------------- -->
     <section class="last-section">
         <div class="container">
              <div class="row">
@@ -295,12 +312,14 @@
              </div>
             
         </div>
+<!---------------------------- last-section end------------------------------ -->
+<!---------------------------- footer-section start-------------------------- -->
         <footer class="d-flex justify-content-center">
             <p>© copyright that | all rights reserved in mizanur Khan</p>
         </footer>
     </section>
-    
-    
+<!---------------------------- footer-section end-------------------------- -->
+<!---------------------------- script start----------------------------------->    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -310,4 +329,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+<!---------------------------- script end-------------------------------------->
+</body>
 </html>
