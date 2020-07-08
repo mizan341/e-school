@@ -35,6 +35,12 @@ p{
     margin-bottom: -70px;
     padding: 30px 0px 30px 0px;
 }
+.logo{
+    width: 150px;
+}
+.nav-item{
+    font-weight: bold;
+}
 
 /* ------------------------nav-section end------------------------------ */
 /* ------------------------banner-section start------------------------------ */
@@ -96,6 +102,30 @@ p{
 
 }
 /* ------------------------online course end------------------------------ */
+/* ------------------------online course end------------------------------ */
+.student{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+   
+   
+}
+.successful{
+    border-radius: 8px;
+    box-shadow: 8px 8px 20px grey;
+    background-color: #e0ffe0;
+    margin-bottom: 30px;
+}
+/* ------------------------online course end------------------------------ */
+/* ------------------------online course end------------------------------ */
+.teacher{
+    background-color: #e0ffe0;
+}
+.carousel-item{
+    padding: 20px 30px 20px 30px;
+    min-height: 300px;
+    color: tomato;
+}
+/* ------------------------testimonial start------------------------------ */
 /* ------------------------testimonial start------------------------------ */
 .man-img{
     width: 150px;
